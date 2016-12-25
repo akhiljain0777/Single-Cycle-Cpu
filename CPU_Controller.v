@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    15:39:51 11/11/2016 
-// Design Name: 
-// Module Name:    CPU_Controller 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module CPU_Controller(
 		ldPC2,ldPCz,ldXr1,ldXr2,ldXPC,ldYr1,ldYr2,alu_ld,ldRPC,ldRZ,ldRM,rdr1,rdr2,rdm,wrm,ldOff11to16,ldOff8to16,ldOff5to16,fsel,
 		opcode,C,V,S,Z_det
